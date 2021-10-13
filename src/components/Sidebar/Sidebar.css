@@ -1,0 +1,9 @@
+.Sidebar {
+  position: fixed;
+  float: left;
+  top: 9%;
+  height: 90vh;
+  width: 10%;
+  border: 2px solid green;
+  margin-top: 0.2em;
+}

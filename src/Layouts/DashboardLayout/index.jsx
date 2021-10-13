@@ -1,3 +1,4 @@
+import Footer from "../../components/Footer";
 import Header from "../../components/Header";
 import Sidebar from "../../components/Sidebar";
 import "./Dashboard.css";
@@ -7,7 +8,10 @@ const DashboardLayout = (props) => {
     <div>
       <Header />
       <Sidebar />
-      <div className="Dashboard-Content">{props.children}</div>
+      <div className="Dashboard-Content">
+        {props.children}
+        <Footer />
+      </div>
     </div>
   );
 };

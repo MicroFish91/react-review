@@ -1,8 +1,10 @@
 .Dashboard-Content {
   position: absolute;
   width: 86.6%;
-  top: 6.35em;
+  top: 6.3em;
   left: 13em;
   height: auto;
-  border: 2px solid red;
+  padding: bottom 0;
+  box-sizing: border-box;
+  padding-bottom: 0.25em;
 }

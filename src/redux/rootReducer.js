@@ -1,6 +1,6 @@
 import { combineReducers } from "@reduxjs/toolkit";
-import userReducer from "./User/userSlice";
+import contactsReducer from "./contacts/contactSlice";
 
-export default rootReducer = combineReducers({
-  user: userReducer,
+export default combineReducers({
+  contacts: contactsReducer,
 });

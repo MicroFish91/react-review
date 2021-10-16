@@ -1,0 +1,14 @@
+.Dogs-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.Dog {
+  margin: 0.5em;
+}
+
+.Dog:hover {
+  color: skyblue;
+  text-decoration: underline;
+  cursor: pointer;
+}

@@ -9,17 +9,17 @@ const Header = () => {
       <ul className="Header-Nav">
         <li className="Header-Link">
           <Link to="/" style={{ textDecoration: "none" }}>
-            Topic 1
+            Home
           </Link>
         </li>
         <li className="Header-Link">
-          <Link to="/" style={{ textDecoration: "none" }}>
-            Topic 2
+          <Link to="/phonebook" style={{ textDecoration: "none" }}>
+            Phonebook
           </Link>
         </li>
         <li className="Header-Link">
-          <Link to="/" style={{ textDecoration: "none" }}>
-            Topic 3
+          <Link to="/dogs" style={{ textDecoration: "none" }}>
+            Dogs
           </Link>
         </li>
         <li className="Header-Link">

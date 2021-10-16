@@ -4,6 +4,7 @@ const CardLayout = (props) => {
   return (
     <div className="CardLayout">
       {props.children} <br />
+      <br />
     </div>
   );
 };
